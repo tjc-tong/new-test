@@ -6,3 +6,6 @@ orange
 grape
 pear
 peach
+plum
+cherry
+apricot
