@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>皖山茶集 | 安徽名茶小铺</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="皖山茶集首页">
+        <span class="brand-mark">皖</span>
+        <span>皖山茶集</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#tea-list">茶品</a>
+        <a href="#origin">产地</a>
+        <a href="#cart">茶单</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="皖山茶集">
+        <img src="assets/hero-tea.png" alt="安徽山间茶席上的茶叶、茶杯和茶罐" />
+        <div class="hero-copy">
+          <p class="eyebrow">安徽原产地精选</p>
+          <h1>皖山茶集</h1>
+          <p class="hero-text">
+            从黄山云雾到祁门暖香，挑选四款适合日饮与送礼的安徽名茶。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#tea-list">选购茶品</a>
+            <a class="button secondary" href="#origin">查看风味</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="店铺亮点">
+        <div>
+          <span>4</span>
+          <p>款安徽代表茶</p>
+        </div>
+        <div>
+          <span>72h</span>
+          <p>小批次封装发出</p>
+        </div>
+        <div>
+          <span>150g</span>
+          <p>轻量装先尝鲜</p>
+        </div>
+      </section>
+
+      <section id="tea-list" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">今日茶架</p>
+          <h2>安徽四味</h2>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="assets/huangshan-maofeng.png" alt="黄山毛峰绿茶商品图" />
+            <div class="product-body">
+              <p class="tag">清鲜豆香</p>
+              <h3>黄山毛峰</h3>
+              <p>芽叶细嫩，汤色嫩绿明亮，适合清晨和午后轻饮。</p>
+              <div class="product-meta">
+                <span>￥128 / 150g</span>
+                <button type="button" data-name="黄山毛峰" data-price="128">加入茶单</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="assets/qimen-black.png" alt="祁门红茶商品图" />
+            <div class="product-body">
+              <p class="tag warm">花蜜甜香</p>
+              <h3>祁门红茶</h3>
+              <p>茶汤红亮，香气温润，适合搭配点心或作为礼盒主款。</p>
+              <div class="product-meta">
+                <span>￥158 / 150g</span>
+                <button type="button" data-name="祁门红茶" data-price="158">加入茶单</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="assets/taiping-houkui.png" alt="太平猴魁绿茶商品图" />
+            <div class="product-body">
+              <p class="tag">兰香鲜爽</p>
+              <h3>太平猴魁</h3>
+              <p>叶片挺阔，滋味鲜醇回甘，适合偏爱清雅口感的人。</p>
+              <div class="product-meta">
+                <span>￥198 / 150g</span>
+                <button type="button" data-name="太平猴魁" data-price="198">加入茶单</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="assets/liuan-guapian.png" alt="六安瓜片绿茶商品图" />
+            <div class="product-body">
+              <p class="tag fresh">栗香清润</p>
+              <h3>六安瓜片</h3>
+              <p>单片叶制成，入口爽净，适合办公室常备和冷泡尝试。</p>
+              <div class="product-meta">
+                <span>￥118 / 150g</span>
+                <button type="button" data-name="六安瓜片" data-price="118">加入茶单</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="origin" class="origin-band">
+        <div class="origin-copy">
+          <p class="eyebrow">风味地图</p>
+          <h2>山场、火候和一杯茶的秩序</h2>
+          <p>
+            安徽茶多生于山地与云雾之间，绿茶重鲜爽，红茶重甜香。这个小铺先以轻量装呈现代表性风味，方便按口感偏好慢慢试。
+          </p>
+        </div>
+        <div class="origin-notes" aria-label="茶品风味">
+          <div>
+            <span>黄山</span>
+            <strong>清香、嫩甜、明亮</strong>
+          </div>
+          <div>
+            <span>祁门</span>
+            <strong>花香、蜜感、红亮</strong>
+          </div>
+          <div>
+            <span>太平</span>
+            <strong>兰香、鲜醇、耐泡</strong>
+          </div>
+          <div>
+            <span>六安</span>
+            <strong>栗香、清润、爽口</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="cart" class="section cart-section">
+        <div class="section-heading">
+          <p class="eyebrow">我的茶单</p>
+          <h2>先配一份看看</h2>
+        </div>
+        <aside class="cart-panel" aria-live="polite">
+          <div id="cartItems" class="cart-items empty">还没有选择茶品</div>
+          <div class="cart-footer">
+            <span>合计</span>
+            <strong id="cartTotal">￥0</strong>
+          </div>
+          <button id="clearCart" class="clear-cart" type="button">清空茶单</button>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>皖山茶集</span>
+      <span>安徽名茶小铺试作版</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
